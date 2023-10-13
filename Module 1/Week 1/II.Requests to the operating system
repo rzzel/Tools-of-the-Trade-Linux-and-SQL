@@ -1,0 +1,27 @@
+Understanding the Operating System
+
+Booting the Computer:
+- BIOS or UEFI microchip is activated during the booting process.
+- BIOS prevalent in older systems, UEFI in modern systems.
+- Both chips contain loading instructions, with UEFI offering enhanced security.
+- Bootloader, a software program, is activated to boot the operating system.
+
+Completing a Task (Four-Part Process):
+1. User: Initiates the process with a specific task in mind.
+2. Application: Software program for task execution.
+3. Operating System: Interprets user's request, directs flow, and communicates with hardware.
+4. Hardware: Processes the task, sends output back to the application through the operating system.
+
+The OS at Work Behind the Scenes:
+- Analogous to processes in a car or ordering at a restaurant.
+- Work of the operating system is critical but not directly observable.
+
+Example: Downloading a File from an Internet Browser:
+1. User clicks on download button in the internet browser.
+2. Browser communicates the action to the OS.
+3. OS sends the download request to the hardware.
+4. Hardware downloads the file, and the OS informs the browser.
+5. Browser notifies the user when the file is downloaded.
+
+Key Takeaways:
+- The operating system is a vital component, connecting applications and hardware to facilitate user tasks.
