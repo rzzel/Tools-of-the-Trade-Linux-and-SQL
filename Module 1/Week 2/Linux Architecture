@@ -1,0 +1,60 @@
+Linux Architecture Components:
+
+User:
+
+-The person interacting with the computer, initiating and managing tasks.
+-Linux is a multi-user system, allowing multiple users to access resources simultaneously.7\
+
+Applications:
+
+-Programs designed to perform specific tasks.
+-Can be pre-installed (e.g., calculators) or installed using a package manager.
+A package manager helps users install, manage, and remove applications.
+
+Shell:
+
+-The command-line interpreter translating user commands for the kernel.
+-Allows users to interact with the kernel through text-based commands.
+
+Filesystem Hierarchy Standard (FHS):
+
+-Organizes data storage locations in the Linux OS.
+-Directories (folders) organize files and other directories based on FHS.
+
+Kernel:
+
+-Manages processes and memory, facilitating communication with applications.
+-Unique to Linux, critical for resource allocation and efficient task execution.
+
+Hardware:
+
+-Physical components of a computer.
+-Peripheral devices (e.g., monitors, printers) are attached and controlled by the computer.
+-Internal hardware (e.g., CPU, RAM, hard drive) is essential for running the computer.
+
+Peripheral Devices:
+
+-Hardware components attached and controlled by the computer.
+-Not core components required for basic system functioning.
+
+Internal Hardware:
+
+-Core components necessary for running the computer.
+-Includes the Central Processing Unit (CPU), Random Access Memory (RAM), and hard drive.
+
+CPU:
+
+-Main processor for general computing tasks.
+-Executes instructions provided by programs.
+
+RAM:
+
+-Short-term memory used to store data temporarily during tasks.
+-Data is deleted from RAM after tasks are completed or the computer is turned off.
+
+Hard Drive:
+
+-Long-term memory for storing programs and files.
+-Retains information even after the computer is turned off.
+-Multiple hard drives can be present in a computer.
+-Understanding these components is crucial for security analysts to comprehend Linux architecture and its functioning.
