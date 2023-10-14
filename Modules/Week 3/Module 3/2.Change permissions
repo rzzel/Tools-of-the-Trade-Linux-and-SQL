@@ -1,0 +1,45 @@
+Changing Permissions with chmod in Linux:
+
+When working as a security analyst, there may be reasons to change permissions for a user, such as changes in departments or work groups. This is crucial to protect system files from accidental or deliberate alterations or deletions.
+
+- chmod Command Overview:
+  - chmod stands for change mode.
+  - It changes permissions on files and directories.
+
+- Two Modes for Changing Permissions:
+  - We'll focus on symbolic mode.
+
+- Symbolic Mode Example:
+  - Identify the file or directory to adjust permissions for (e.g., access.txt).
+  - Use symbolic representations:
+    - u: User
+    - g: Group
+    - o: Other
+
+  - Mathematical Operators:
+    - +: Add permissions
+    - -: Remove permissions
+
+  - Permission Indicators:
+    - r: Read
+    - w: Write
+    - x: Execute
+
+- Practical Demonstration:
+  - Example: chmod g+w,o-r access.txt
+    - Adds write permissions for the group (g+w).
+    - Removes read permissions for others (o-r).
+
+- Changing Permissions in Practice:
+  - Start in the logs sub-directory.
+  - Use ls -l to view current permissions.
+  - Identify changes needed (e.g., adding write permissions for the group and removing read permissions for others).
+  - Run chmod command (e.g., chmod g+w,o-r access.txt).
+  - Verify changes using ls -l.
+
+- Conclusion:
+  - While initially complex, practice makes working with Linux commands, like chmod, more natural over time.
+
+Remember, you don't have to memorize every detail and can always refer back to documentation.
+
+I hope this helps in your journey to learn Linux commands!
