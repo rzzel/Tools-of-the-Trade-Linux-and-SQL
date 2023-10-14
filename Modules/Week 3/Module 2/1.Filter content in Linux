@@ -1,0 +1,23 @@
+Filtering for information is a crucial skill for security analysts, enabling them to select and customize data based on specific criteria. Several Linux commands facilitate this process:
+
+grep:
+The grep command searches a specified file for lines containing a specified string. For instance, grep OS updates.txt returns lines containing "OS" in the "updates.txt" file.
+
+Piping (|):
+The pipe command (|) sends the standard output of one command as the standard input to another command. Used with grep, it helps find directories and files containing a specific word in their names. For example, ls /home/analyst/reports | grep users lists names in the "reports" directory containing "users."
+
+find:
+The find command searches for directories and files meeting specific criteria. Options modify its behavior:
+- -name and -iname: Find files or directories with names containing a specific string. -name is case-sensitive, while -iname is not.
+  - Example: find /home/analyst/projects -name "*log*"
+- -mtime: Find files or directories modified within a certain time frame, specified in days. -mtime -3 returns items modified in the past three days.
+  - Example: find /home/analyst/projects -mtime -3
+
+Security analysts can leverage these commands to navigate and filter information in the file system effectively.
+
+Key Takeaways:
+- grep, piping (|), and find are essential Linux commands for filtering information.
+- grep searches for strings in files.
+- Piping (|) sends output from one command to another.
+- find searches for files or directories based on various criteria.
+
