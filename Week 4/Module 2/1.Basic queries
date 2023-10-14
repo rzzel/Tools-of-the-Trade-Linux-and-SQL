@@ -1,0 +1,27 @@
+1. Running Your First SQL Query
+   - Common work task for a security analyst: Identifying the computer assigned to a specific employee.
+   - Accessing the employees table with relevant columns (employee_id, device_id).
+   - Using SQL keywords SELECT and FROM for querying.
+
+2. SQL Query Syntax
+   - SELECT: Specifies columns to return.
+   - FROM: Indicates the table to query.
+   - Syntax similarity to everyday language; e.g., selecting fruit from a box.
+   - SQL keywords are not case-sensitive.
+   - Semicolons mark the end of a statement.
+
+3. Query Execution
+   - Constructing the SQL statement: SELECT employee_id, device_id FROM employees.
+   - Syntax details: Case sensitivity and semicolon usage.
+   - Running the query and interpreting the output.
+
+4. Exploring Additional Information
+   - Expanding the query to retrieve all columns: SELECT * FROM employees.
+   - Introduction to "select all" using an asterisk.
+   - Running the extended query to get the full table output.
+
+5. Key Takeaways
+   - SQL basics: SELECT and FROM for querying specific columns.
+   - SQL syntax is not case-sensitive; semicolons end statements.
+   - Using SELECT * for retrieving all columns in a table.
+   - Practical example: Matching employees to their assigned computers.
