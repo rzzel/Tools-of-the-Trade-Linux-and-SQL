@@ -1,0 +1,30 @@
+1. Accessing SQL on Linux
+   - Various interfaces for accessing SQL.
+   - Example: Using the Linux command line to access SQLite (sqlite3 command).
+   - Redirecting commands from the command line to SQL.
+
+2. Differences in Data Filtering: Linux vs. SQL
+   - Structure:
+     - SQL provides more structure than Linux.
+     - Example: Log-in attempts organized into columns in SQL.
+   - Joining Tables:
+     - SQL allows joining multiple tables for comprehensive data.
+     - Linux lacks the functionality to connect data across tables.
+   - Best Uses:
+     - Choosing the right tool for specific situations.
+     - SQL for organized data in databases; Linux for diverse log formats.
+
+3. Considerations for Security Analysts
+   - Data Structure:
+     - SQL offers readable and easily adjustable results.
+   - Joining Tables:
+     - SQL advantage in situations requiring information from multiple tables.
+   - Best Tool Choice:
+     - Understanding when to use SQL or Linux based on data formats.
+   - Data Filtering:
+     - Both SQL and Linux are valuable for specific scenarios in cybersecurity.
+
+4. Key Takeaways
+   - Access SQL through various interfaces, including the Linux command line.
+   - SQL provides structured and joined data capabilities.
+   - Choosing the right tool (SQL or Linux) based on data format is crucial for a security analyst.
