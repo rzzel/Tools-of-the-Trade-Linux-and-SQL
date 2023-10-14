@@ -1,0 +1,24 @@
+1. **Introduction to SQL for Security Analysts**
+   - Definition: SQL (Structured Query Language).
+   - Purpose: Creating, interacting with, and querying databases.
+   - Importance for security analysts.
+
+2. **Understanding Queries in SQL**
+   - Definition of a query in the context of databases.
+   - Commonality across relational databases in using SQL for querying.
+   - Importance of SQL for security analysts.
+
+3. **Retrieving Logs with SQL**
+   - Overview of logs as records of system events.
+   - Tasks of a security analyst related to log review.
+   - Utilizing SQL to efficiently search and extract relevant data from large logs.
+
+4. **Analyzing Security Logs with SQL**
+   - Use of SQL for basic data analytics in security.
+   - Skills enhancement for security analysts using SQL.
+   - Examples: Identifying machines without the latest patch, optimizing update times.
+
+5. **Benefits of SQL for Security Analysts**
+   - Efficiency in searching through large datasets.
+   - Support for security-related decisions.
+   - Versatility in tasks such as log review and data analytics.
