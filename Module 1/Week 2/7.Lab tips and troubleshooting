@@ -1,0 +1,34 @@
+Tips and Troubleshooting for Qwiklabs and Jupyter Notebooks:
+
+Browser Compatibility:
+- Ensure your browser (Google Chrome, Firefox, Safari, or Microsoft Edge) is regularly updated.
+- Qwiklabs and Jupyter Notebooks work best with the latest version of Google Chrome.
+- If issues persist, try restarting your browser, clearing cache and cookies, or using incognito mode.
+
+Internet Connection:
+- Maintain a stable internet connection for Qwiklabs and Jupyter Notebooks.
+- Signs of an unstable connection include freezing labs, difficulty connecting to virtual machines, or inability to enter commands.
+- If issues persist on one device, try using another device.
+
+Troubleshooting Steps:
+1. Browser Version:
+   - Use the latest version of a supported browser.
+   
+2. Browser Issues:
+   - Restart your browser.
+   - Clear your browser’s cache and cookies.
+   - Consider using incognito mode.
+
+3. Internet Connection:
+   - Ensure a stable internet connection.
+   - Restart your router and modem if needed.
+
+4. Restart Qwiklabs or Jupyter Notebooks:
+   - Attempt to restart the platform.
+
+5. Qwiklabs Quota Issue:
+   - If encountering quota issues on Qwiklabs, submit a support form for assistance.
+
+Note: Qwiklabs user interface is optimized for Google Chrome.
+
+These troubleshooting steps should help address common issues encountered during hands-on activities.
