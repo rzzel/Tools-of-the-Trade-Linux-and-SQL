@@ -1,0 +1,43 @@
+Introduction to Package Managers:
+
+- Definition:
+  - A package is software that, when combined with others, forms an application.
+  - Packages contain necessary files, including dependencies, for installation.
+
+- Package Managers:
+  - Tools that help users install, manage, and remove packages or applications.
+  - Resolve dependency issues and perform management tasks.
+  - Multiple package managers exist in Linux.
+
+- Dependencies:
+  - Supplemental files required for running an application.
+
+- Versioning:
+  - Using the most recent package version is crucial for bug fixes and security patches.
+
+- Types of Package Managers:
+  - Common Linux distributions share parent distributions (e.g., Debian, Red Hat).
+  - Package managers vary based on distribution (e.g., RPM for Red Hat, dpkg for Debian).
+
+- File Extensions:
+  - Different package managers use distinct file extensions.
+  - Examples: .rpm for Red Hat Package Manager (RPM), .deb for dpkg.
+
+- Package Management Tools:
+  - Tools facilitating package management through the shell.
+  - Notable tools include Advanced Package Tool (APT) for Debian and Yellowdog Updater Modified (YUM) for Red Hat.
+
+- APT (Advanced Package Tool):
+  - Used in Debian-derived distributions.
+  - Command-line tool for managing, searching, and installing packages.
+
+- YUM (Yellowdog Updater Modified):
+  - Used in Red Hat-derived distributions.
+  - Command-line tool for managing, searching, and installing packages.
+  - Works with .rpm files.
+
+- Key Takeaways:
+  - Packages, managed by package managers, are crucial for applications.
+  - Multiple package managers and tools cater to different Linux distributions.
+  - Package management tools (APT, YUM) simplify tasks through the shell.
+  - Debian and its derivatives use dpkg and APT, while Red Hat and derivatives use RPM and YUM.
