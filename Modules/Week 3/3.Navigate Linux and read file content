@@ -1,0 +1,28 @@
+Filesystem Hierarchy Standard (FHS): The FHS organizes data in Linux, defining the hierarchy of directories and storage organization in the operating system. The root directory, represented by a forward slash (/), is the highest-level directory, and subdirectories branch off from it.
+
+Standard FHS Directories:
+- /home: Each user has a personal home directory.
+- /bin: Contains binary files and executables.
+- /etc: Stores system configuration files.
+- /tmp: Stores temporary files.
+- /mnt: Stores media such as USB drives.
+
+User-Specific Subdirectories:
+- Users have subdirectories under /home for personal use, like projects, logs, or reports.
+
+Navigating the File System Commands:
+1. **pwd (Print Working Directory):** Displays the current working directory's absolute path.
+2. **ls (List):** Lists files and directories in the current working directory; can take an argument for a different directory.
+3. **cd (Change Directory):** Navigates between directories; accepts arguments for subdirectories or absolute file paths.
+
+Reading File Content Commands:
+1. **cat (Concatenate):** Displays the full content of a file.
+2. **head:** Displays the beginning of a file (default: 10 lines); -n specifies the number of lines.
+3. **tail:** Displays the end of a file (default: 10 lines); useful for log files.
+4. **less:** Displays file content one page at a time, allowing navigation with keyboard controls.
+
+Key Takeaways:
+- Security analysts need to navigate Linux and the FHS file system efficiently.
+- Commands like `pwd`, `ls`, and `cd` are essential for navigation.
+- Reading file content is crucial; commands like `cat`, `head`, `tail`, and `less` are useful.
+- Pro tips include using `whoami` to find the current username and customizing line counts with -n in certain commands.
