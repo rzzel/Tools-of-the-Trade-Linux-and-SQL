@@ -1,0 +1,9 @@
+- Filesystem Hierarchy Standard (FHS): The FHS organizes data in the Linux OS, functioning like the roots of a tree where everything starts. It's a hierarchical system with the root directory designated by a single slash. Understanding the file system is crucial for navigating, locating, and analyzing logs, especially in security scenarios.
+
+- Navigating the File System: Commands for navigation include `pwd` (print working directory), `ls` (list files and directories), and `cd` (change directory). `pwd` displays the current working directory, `ls` shows files and directories in the current directory, and `cd` is used to move between directories.
+
+- Practical Application: Demonstrating the commands in Bash, the video showcases how to use `pwd` to identify the current location, `ls` to list items in the current directory, and `cd` to change directories. The importance of navigating the file system is emphasized for security analysts analyzing logs and investigating unauthorized access.
+
+- Reading File Content: Commands such as `cat` (display full content of a file) and `head` (display the beginning of a file) are essential for reading file content. Practical examples involve using these commands to display the contents of the "access.txt" file.
+
+- Security Analyst's Perspective: Security analysts use these commands to navigate, manage, and analyze files, crucial for tasks like reviewing logs for application usage and authentication, identifying vulnerabilities in configuration files, and investigating unauthorized access.
