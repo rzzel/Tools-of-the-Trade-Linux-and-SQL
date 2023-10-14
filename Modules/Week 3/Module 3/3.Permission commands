@@ -1,0 +1,47 @@
+Reading and Changing Permissions in Linux:
+
+**Reading Permissions:**
+
+- Permissions in Linux are represented by a 10-character string.
+- There are three types of permissions: read, write, and execute.
+- These permissions are for three types of owners: user, group, and other.
+- The 10-character string represents file type, owner permissions, group permissions, and other permissions.
+- The ls command with options like -l and -la can be used to explore permissions.
+
+**Exploring Existing Permissions:**
+
+- ls -a: Displays hidden files.
+- ls -l: Displays detailed permissions, owner name, group, file size, and last modification time.
+- ls -la: Combines both options, displaying detailed permissions for all files.
+
+**Changing Permissions:**
+
+- Principle of Least Privilege: Grant minimal access necessary for tasks.
+- chmod command changes permissions on files and directories.
+- chmod requires two arguments: changes to permissions and the file or directory.
+- Characters used in the first argument of chmod:
+  - u: User permissions
+  - g: Group permissions
+  - o: Other permissions
+  - +: Adds permissions
+  - -: Removes permissions
+  - =: Assigns permissions exactly as specified
+
+**Principle of Least Privilege in Action:**
+
+- Example Scenario:
+  - File: bonuses.txt in compensation directory.
+  - Owner: hrrep1 from Human Resources.
+  - Permissions: -rw-rw---- (read and write for the owner and group).
+  - Issue: Violates the principle of least privilege.
+
+- Solution:
+  - Run chmod g-rw bonuses.txt to remove read and write permissions for the group.
+  - Result: Aligns permissions with the principle of least privilege.
+
+**Key Takeaways:**
+
+- ls with -l and -la options for investigating permissions.
+- chmod for changing user permissions, ensuring alignment with the principle of least privilege.
+
+Remember to carefully manage permissions to enhance security.
