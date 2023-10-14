@@ -1,0 +1,52 @@
+How to Use Qwiklabs:
+
+1. Launching Qwiklabs:
+   - Select a lab from a Coursera page.
+   - Click "Launch App" on that page.
+   - A new tab opens with Qwiklabs instructions for the lab.
+
+2. Start Lab Button:
+   - Click "Start Lab" on the Qwiklabs page to open a temporary terminal.
+   - Instructions move to the right side of the screen.
+   - Complete tasks in the lab by entering commands in the terminal.
+
+3. Lab Control Dialog Box:
+   - Opens after clicking "Start Lab."
+   - Contains "End Lab" button, timer, and "Open Linux Console" button.
+
+4. Timer:
+   - Starts when the terminal loads.
+   - Tracks time left to complete the lab.
+   - Terminal and resources are deleted at 00:00:00.
+
+5. Open Linux Console Button:
+   - Opens the terminal in a new browser window.
+   - Provides a full-screen view.
+   - Closing the window doesn't end the lab.
+
+6. Check Progress:
+   - Click "Check my progress" to see completion status or receive hints.
+
+7. Copy/Paste Commands:
+   - Allow clipboard access for copy/paste shortcuts.
+   - Use copy button for code blocks.
+   - Paste with CTRL + V in the terminal.
+
+8. Scrolling:
+   - Scroll within the terminal window using the mouse wheel or touchpad.
+
+9. End Lab Button:
+   - Click "End Lab" when tasks are completed.
+   - Don't click until finished to avoid losing progress.
+
+10. Tracking Progress on Coursera:
+    - Refresh the page if progress isn't tracked.
+    - Green check mark appears after completion.
+
+11. Navigation Tips and Shortcuts:
+    - Various keyboard shortcuts for navigating within the terminal.
+
+Key Takeaways:
+- Familiarize yourself with Qwiklabs navigation for interactive learning.
+- Practice learned concepts in labs for a hands-on experience.
+
