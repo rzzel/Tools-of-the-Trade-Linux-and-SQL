@@ -1,0 +1,44 @@
+**Responsible use of sudo:**
+
+To manage authorization and authentication, use `sudo` in Linux when elevated privileges are needed. Logging in as the root user is not recommended due to security risks and potential irreversible mistakes. `sudo` temporarily grants elevated permissions to specific users. Users must be given access in the "sudoers file."
+
+Be cautious with `sudo` usage and only grant access to users who genuinely need it. Running commands with `sudo` allows users to bypass typical security controls.
+
+**Authentication and authorization with sudo:**
+
+**useradd:**
+```bash
+# Add a user
+sudo useradd username
+# Add to a specific group
+sudo useradd -G groupName username
+
+Adding Users:
+# Add a new user
+sudo useradd username
+
+# Set password for the new user
+sudo passwd username
+
+# Add the new user to a specific group
+sudo useradd -G groupName username
+
+# Confirm the new user was added
+id username
+
+
+Deleting Users:
+
+# Delete a user
+sudo userdel username
+
+# Remove user's home directory and mail spool
+sudo userdel -r username
+
+Modifying Users:
+# Modify user properties (change username)
+sudo usermod -l newUsername oldUsername
+
+# Add or remove a user from a group
+sudo usermod -aG groupName username
+
