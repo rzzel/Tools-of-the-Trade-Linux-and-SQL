@@ -1,0 +1,28 @@
+1. **Introduction to Databases**
+   - Definition: An organized collection of information.
+   - Comparison with spreadsheets.
+   - Importance for security analysts.
+
+2. **Organizing and Interacting with Databases**
+   - Overview of organizing data in databases.
+   - Focus on relational databases.
+   - Structured databases with related tables.
+
+3. **Relational Database Structure**
+   - Explanation of tables, fields, and rows.
+   - Example: Employee table with fields like employee_id, device_id, and username.
+   - Understanding rows as records.
+
+4. **Connecting Tables in Relational Databases**
+   - Introduction to multiple tables in relational databases.
+   - Establishing relationships with common columns.
+   - Types of keys: Primary key (unique identifier) and Foreign key (connects tables).
+
+5. **Primary and Foreign Keys**
+   - Detailed explanation of primary keys.
+   - Foreign keys as connections between tables.
+   - Distinction: Primary keys are unique, while foreign keys can have duplicates.
+
+6. **Basics of SQL**
+   - Introduction to SQL as the language for working with databases.
+   - Practical application of database concepts using SQL.
