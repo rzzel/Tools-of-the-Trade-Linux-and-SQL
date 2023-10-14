@@ -1,0 +1,28 @@
+Adding Users:
+# Add a new user
+sudo useradd username
+
+# Set password for the new user
+sudo passwd username
+
+# Add the new user to a specific group
+sudo useradd -G groupName username
+
+# Confirm the new user was added
+id username
+
+
+Deleting Users:
+
+# Delete a user
+sudo userdel username
+
+# Remove user's home directory and mail spool
+sudo userdel -r username
+
+Modifying Users:
+# Modify user properties (change username)
+sudo usermod -l newUsername oldUsername
+
+# Add or remove a user from a group
+sudo usermod -aG groupName username
