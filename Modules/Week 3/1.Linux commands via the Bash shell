@@ -1,0 +1,11 @@
+- Bash Shell as Default: Bash is the default shell in most Linux distributions, providing a consistent environment for learning key commands across distributions.
+
+- Command Structure: Communicating with the OS through the shell involves entering commands, and the OS responds accordingly. The command prompt, indicated by the dollar sign ($), signals the user to input a new command.
+
+- Instructional Nature of Commands: Commands are instructions directing the computer to perform specific tasks, such as finding files, launching programs, or outputting text. The `echo` command is an example, used to display a specified string of text.
+
+- Arguments in Commands: Commands often require additional information known as arguments. Arguments provide specific details needed by a command to execute. For instance, when using the `echo` command, the string of text to be outputted serves as an argument.
+
+- Case Sensitivity: Linux commands, arguments, file names, and directory names are case-sensitive. Understanding and adhering to case sensitivity is crucial for accurate command execution.
+
+- Foundational Importance: Proficiency in Linux commands is foundational for security analysts. Skills include navigating and managing files, configuring user and group access, providing authorization, and setting file permissions. These skills are essential for remote file management and analysis, especially in server log scenarios.
