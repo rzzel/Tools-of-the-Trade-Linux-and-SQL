@@ -1,0 +1,41 @@
+Permissions in Linux:
+
+Permissions are the type of access granted for a file or directory. Authorization is about granting access to specific resources in a system, and it's crucial to limit access to specified files or directories.
+
+- Three Types of Permissions:
+  1. Read: Allows reading of file contents or listing files in a directory.
+  2. Write: Permits modifications to file contents or the creation of new files in a directory.
+  3. Execute: Enables the execution of a file (for executable files) or access to a directory's contents.
+
+- Three Types of Owners:
+  1. User: The owner of the file.
+  2. Group: A group consists of several users, allowing management in a multi-user environment.
+  3. Other: All other users on the system.
+
+- Representation of Permissions:
+  - In Linux, file permissions are represented with a 10-character string. For example: drwxrwxrwx.
+  - The first character indicates the file type (d for directory, hyphen for a regular file).
+  - Characters 2-4 indicate user permissions, 5-7 for the group, and 8-10 for others.
+  - r, w, x represent read, write, and execute permissions, respectively.
+
+- Importance of Proper Permissions:
+  - Critical for protecting sensitive files and maintaining overall system security.
+  - Example: Payroll files should not be readable by unauthorized users.
+
+- World-Writable Files:
+  - Files where user, group, and other can all write. Considered a significant security risk.
+
+Checking Permissions:
+
+- ls Command Options:
+  - ls -l: Displays permissions to files and directories.
+  - ls -a: Displays hidden files (those starting with a period before their name).
+  - ls -la: Displays permissions for files and directories, including hidden files.
+
+Practical Demonstration:
+
+- Using ls Command:
+  - ls: Displays file contents.
+  - ls -l: Displays detailed information, including permissions.
+  - ls -a: Displays hidden files.
+  - ls -la: Displays permissions for all files, including hidden ones.
