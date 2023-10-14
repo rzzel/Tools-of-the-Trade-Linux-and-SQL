@@ -1,0 +1,17 @@
+
+When it comes to working with data in security, organization is key. Directories in Linux are analogous to folders in other systems and help organize files and subdirectories. In this context, we'll look at essential Linux commands for managing directories and files:
+
+1. `mkdir`: Creates a new directory.
+2. `rmdir`: Removes or deletes a directory. Provides a warning if the directory is not empty.
+3. `touch`: Creates a new file.
+4. `rm`: Removes or deletes a file.
+5. `mv`: Moves a file or directory to a new location.
+6. `cp`: Copies a file or directory to a new location.
+
+Let's put these commands into action! Using `pwd` and `ls` commands, we navigate to the analyst directory. We then use `rmdir` to delete the "oldreports" directory. To create a new "drafts" directory, we use `mkdir drafts` and navigate into it. Inside "drafts," we create two files using `touch`.
+
+Next, we explore file deletion with `rm`. After realizing we only need a report on OS patches, we delete the "email_patches.txt" file. For moving and copying files, we use `mv` to move a file from one directory to another and `cp` to copy a file to a different directory.
+
+Lastly, we introduce the use of file editors for editing files. The `nano` editor is used to add a title to a new draft report. We save and exit the editor using keyboard shortcuts.
+
+In summary, this covers creating and removing directories and files, copying or moving them, and editing files using applications like `nano`. It's a comprehensive introduction to essential Linux commands!
