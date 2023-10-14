@@ -1,0 +1,44 @@
+Basic SQL Query and Ordering Data
+
+1. Essential SQL Keywords:
+   - SELECT: Specifies columns to return.
+   - FROM: Indicates the table to query.
+
+2. Sample Query:
+   - Example Query: SELECT employee_id, device_id FROM employees;
+
+3. Chinook Database:
+   - Sample database used in the course (digital media company data).
+   - Tables include employees, customers, invoices, etc.
+
+4. SELECT Keyword Usage:
+   - SELECT customerid, city, country FROM customers;
+   - SELECT * FROM customers; (Selects all columns.)
+
+5. Note on SELECT *:
+   - Be cautious with large databases; may result in slow and hard-to-understand output.
+
+6. FROM Keyword:
+   - Always accompanies SELECT.
+   - Indicates the table to query.
+
+7. Line Breaks in Queries:
+   - Not necessary but commonly used for better readability.
+
+8. ORDER BY Keyword:
+   - Organizes query results based on specified column(s).
+   - Sequencing can be ascending (default) or descending.
+
+9. Sorting in Ascending Order:
+   - Example: ORDER BY city;
+
+10. Sorting in Descending Order:
+   - Example: ORDER BY city DESC;
+
+11. Sorting Based on Multiple Columns:
+   - Example: ORDER BY country, city;
+
+12. Key Takeaways:
+   - Foundational SQL skills: SELECT, FROM, and ORDER BY.
+   - Understanding query structure and data organization.
+   - Caution with SELECT * in large databases.
