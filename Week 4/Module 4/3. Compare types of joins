@@ -1,0 +1,61 @@
+Inner Joins:
+
+Definition: INNER JOIN returns rows matching on a specified column that exists in more than one table.
+Syntax:
+
+SELECT *
+FROM employees
+INNER JOIN machines ON employees.device_id = machines.device_id;
+
+Explanation:
+Specify tables after FROM and INNER JOIN.
+Use the ON keyword followed by the matching column using the = operator.
+Columns are returned from both tables for matching rows.
+----
+Left Joins:
+
+Definition: LEFT JOIN returns all records from the first table and matching rows from the second table.
+Syntax:
+
+SELECT *
+FROM employees
+LEFT JOIN machines ON employees.device_id = machines.device_id;
+
+Explanation:
+All records from the left table are returned.
+Only matching records from the right table are included.
+
+----
+Right Joins:
+
+Definition: RIGHT JOIN returns all records from the second table and matching rows from the first table.
+Syntax:
+
+SELECT *
+FROM employees
+RIGHT JOIN machines ON employees.device_id = machines.device_id;
+
+Explanation:
+All records from the right table are returned.
+Only matching records from the left table are included.
+----
+Full Outer Joins:
+
+Definition: FULL OUTER JOIN returns all records from both tables.
+
+Syntax:
+SELECT *
+FROM employees
+FULL OUTER JOIN machines ON employees.device_id = machines.device_id;
+
+Explanation:
+All records from both tables are included.
+NULL values are used for columns without a match.
+Key Takeaways:
+
+Joins are used to combine tables based on a specified column.
+INNER JOIN returns only matching rows.
+Outer joins return additional rows from one or both tables.
+LEFT JOIN returns all records from the left table.
+RIGHT JOIN returns all records from the right table.
+FULL OUTER JOIN returns all records from both tables.
