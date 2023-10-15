@@ -1,0 +1,51 @@
+Qwiklabs Usage Guide
+
+1. Launching Qwiklabs:
+   - Start from Coursera page.
+   - Click "Launch App" to open Qwiklabs.
+   - Click "Start Lab" for instructions and tasks.
+   - Timer tracks lab duration.
+
+2. Lab Control Dialog:
+   - Contains "End Lab," timer, and "Open Linux Console" button.
+   - Click icon in red box to hide/unhide.
+
+3. Open Linux Console:
+   - Full-screen terminal view.
+   - Doesn't end the lab; original tab remains active.
+
+4. Check Progress:
+   - Click "Check my progress" to verify completion or get hints.
+   - Use anytime to track task status.
+
+5. Copy/Paste Commands:
+   - Allow clipboard access for shortcuts.
+   - Use CTRL + C, CTRL + V for copying/pasting.
+   - Click "Copy" for code blocks.
+
+6. Scrolling:
+   - Use scroll wheel or touchpad.
+
+7. End Lab:
+   - Click "End Lab" when tasks are completed.
+   - Don't click until finished to retain access.
+
+8. Refresh for Progress:
+   - Refresh Coursera page after completing to update progress.
+
+9. Navigation Tips and Shortcuts:
+   - CTRL + C: Terminate command.
+   - CTRL + V: Paste text.
+   - CTRL + L: Clear terminal.
+   - \c + Enter: Clear current input.
+   - CTRL + A: Move cursor to beginning.
+   - CTRL + E: Move cursor to end.
+   - Arrow keys: Navigate within commands.
+   - Tab key: Provide text suggestions.
+
+10. Reconnecting in MariaDB Shell:
+    - If unintentionally exited, run "sudo mysql organization."
+
+Key Takeaways:
+   - Familiarize yourself with Qwiklabs navigation.
+   - Practice in an interactive environment.
