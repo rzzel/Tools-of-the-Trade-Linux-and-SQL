@@ -1,0 +1,40 @@
+Working with Multiple Conditions in SQL
+
+AND Operator:
+- Use the AND operator to specify that both conditions must be met simultaneously.
+- Example:
+
+```sql
+SELECT *
+FROM machines
+WHERE operating_system = 'OS 1'
+  AND email_client = 'Email Client 1';
+
+
+The result includes only rows that meet both conditions.
+OR Operator:
+
+Use the OR operator to specify that either condition can be met.
+Example:
+
+SELECT *
+FROM machines
+WHERE operating_system = 'OS 1'
+   OR operating_system = 'OS 3';
+
+The result includes rows that meet either condition or both.
+NOT Operator:
+
+Use the NOT operator to negate a condition.
+Example:
+
+SELECT *
+FROM machines
+WHERE NOT operating_system = 'OS 3';
+
+The result includes rows that do not meet the specified condition.
+Key Takeaways:
+
+Use the AND operator to filter rows that meet multiple conditions simultaneously.
+Use the OR operator to filter rows that meet either condition or both.
+Use the NOT operator to negate a condition and filter rows that do not meet the specified condition.
