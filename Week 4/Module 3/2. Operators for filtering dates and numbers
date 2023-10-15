@@ -1,0 +1,50 @@
+Numeric and Date/Time Data in Cybersecurity
+
+Security analysts often work with numeric data and date/time data in addition to string data.
+
+Numeric Data Examples:
+- Number of login attempts
+- Count of a specific log entry type
+- Volume of data sent from a source
+- Volume of data sent to a destination
+
+Date/Time Data Examples:
+- Timestamps for log records
+- Login dates and times
+- Dates for patches
+- Duration of a connection
+
+Comparison Operators in SQL:
+- `<` (less than)
+- `>` (greater than)
+- `=` (equal to)
+- `<=` (less than or equal to)
+- `>=` (greater than or equal to)
+- `<>` or `!=` (not equal to)
+
+Using Operators in Filters:
+- Operators are used in the WHERE clause of a query.
+- Example using the > operator:
+
+```sql
+SELECT firstname, lastname, birthdate
+FROM employees
+WHERE birthdate > '1970-01-01';
+
+The > operator is exclusive, not including the specified value.
+BETWEEN Operator:
+
+Filters for numbers or dates within a range.
+Example using the BETWEEN operator:
+
+SELECT firstname, lastname, hiredate
+FROM employees
+WHERE hiredate BETWEEN '2002-01-01' AND '2003-01-01';
+
+The BETWEEN operator is inclusive, including both specified values.
+Key Takeaways:
+
+Understanding operators is crucial for filtering numeric and date/time data.
+Different operators offer exclusivity or inclusivity in filtering.
+The BETWEEN operator is useful for filtering within a specific range.
+
