@@ -1,0 +1,54 @@
+Logical Operators in SQL
+
+AND Operator:
+- Used to filter on two conditions.
+- Specifies that both conditions must be met simultaneously.
+- Example:
+
+```sql
+SELECT firstname, lastname, email, country, supportrepid
+FROM customers
+WHERE supportrepid = 5 AND country = 'USA';
+
+Returns rows where both conditions are true.
+OR Operator:
+
+Connects two conditions.
+Specifies that either condition can be met.
+Example:
+
+SELECT firstname, lastname, email, country
+FROM customers
+WHERE country = 'Canada' OR country = 'USA';
+
+Returns rows where either condition or both are true.
+
+NOT Operator:
+
+Works on a single condition.
+Negates a condition.
+Example:
+
+SELECT firstname, lastname, email, country
+FROM customers
+WHERE NOT country = 'USA';
+
+Returns rows where the condition is not true.
+
+Combining Logical Operators:
+
+Logical operators can be combined in filters.
+Example:
+
+SELECT firstname, lastname, email, country
+FROM customers
+WHERE NOT country = 'Canada' AND NOT country = 'USA';
+
+Returns rows where both conditions are not true.
+
+Key Takeaways:
+
+AND requires both conditions to be true.
+OR requires either one or both conditions to be true.
+NOT negates a condition.
+Logical operators can be combined for more specific queries.
