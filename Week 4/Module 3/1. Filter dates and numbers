@@ -1,0 +1,49 @@
+Applying SQL Queries and Filters to Different Data Types
+
+In this tutorial, we'll delve into using SQL queries and filters for different data types: string, numeric, and date and time.
+
+Common Data Types in Databases
+
+1. String Data:
+   - Ordered sequence of characters (e.g., user names like analyst10).
+
+2. Numeric Data:
+   - Consists of numbers (e.g., log-in attempt count).
+   - Allows mathematical operations like multiplication or addition.
+
+3. Date and Time Data:
+   - Represents a date and/or time.
+   - Common in filtering for specific time periods or patch dates.
+
+Operators for Numeric and Date/Time Data
+
+Common operators for working with numeric or date and time data types include:
+   - Equals
+   - Greater than
+   - Less than
+   - Not equal to
+   - Greater than or equal to
+   - Less than or equal to
+
+Filtering Numeric and Date/Time Data
+
+Filtering Time Data
+Suppose you want to find log-in attempts made after 6 pm. You can use the greater than operator in your filter:
+
+```sql
+SELECT *
+FROM log_in_attempts
+WHERE time > '18:00';
+
+Filtering Date Data with BETWEEN Operator
+The BETWEEN operator filters for numbers or dates within a range. For example, finding all patches installed between March 1, 2021, and September 1, 2021:
+
+SELECT *
+FROM machines
+WHERE OS_patch_date BETWEEN '2021-03-01' AND '2021-09-01';
+Note: For strings, dates, and times, use quotation marks to specify conditions. For numbers, do not use quotation marks.
+
+
+
+
+
