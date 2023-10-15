@@ -1,0 +1,46 @@
+Filtering in SQL
+
+Filtering allows selecting data that matches specific conditions, effectively choosing desired data. Think of it like selecting fresh apples from a cart of mixed fruits.
+
+Operators in SQL
+
+Operators are symbols or keywords representing operations in SQL. Example: the equal-to operator, denoted by =, selects records with a specific value in a column, e.g., country = 'USA.'
+
+Using WHERE Clause
+
+In SQL, filtering is accomplished by adding a WHERE clause after the SELECT and FROM statements. The WHERE clause specifies the condition for filtering using operators. For example, to select login attempts from the United States, use:
+
+SELECT *
+FROM log_in_attempts
+WHERE country = 'USA';
+
+Complex Conditions
+
+SQL filters can include complex conditions that search for patterns rather than exact matches. For instance, you can use a wildcard (%) with the LIKE operator to match patterns. To filter all offices in the East building:
+
+SELECT *
+FROM employees
+WHERE office LIKE 'East%';
+
+LIKE Operator
+
+The LIKE operator is used with WHERE to search for patterns in a column. It allows searching for values that match a specified pattern, where '%' acts as a wildcard for unspecified characters.
+
+Using LIKE in a WHERE Clause
+
+When searching for patterns using the LIKE operator, use it in the WHERE clause instead of the equals operator. For example:
+
+SELECT *
+FROM log_in_attempts
+WHERE country LIKE 'US%';
+
+Example: Inconsistent Data
+
+Suppose the database contains variations like US and USA for the United States. You can use the LIKE operator to filter both cases, e.g., 'US%,' to match both US and USA.
+
+Key Takeaways
+
+- Filtering selects data based on specific conditions.
+- Operators like = and LIKE are used to define conditions.
+- The WHERE clause follows SELECT and FROM statements.
+- LIKE with '%' acts as a wildcard to match patterns.
