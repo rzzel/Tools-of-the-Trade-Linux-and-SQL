@@ -1,0 +1,24 @@
+Syntax of Joins:
+
+SELECT employees.employee_id, employees.column_name, machines.column_name
+FROM employees
+JOIN machines ON employees.employee_id = machines.employee_id;
+Explanation: In this example, we are using the employees and machines tables. The employee_id column is present in both tables, and we specify which table it belongs to using the table name followed by a period. The JOIN clause is used to combine the two tables based on the common employee_id column.
+
+INNER JOIN Example:
+
+
+SELECT employees.username, employees.office, machines.operating_system
+FROM employees
+INNER JOIN machines ON employees.employee_id = machines.employee_id;
+Explanation: This query uses an INNER JOIN to retrieve the username, office, and operating_system columns from the employees and machines tables. The join is performed based on the common employee_id column.
+
+Handling NULL Values:
+
+SELECT employees.username, employees.office, machines.operating_system
+FROM employees
+LEFT JOIN machines ON employees.employee_id = machines.employee_id;
+Explanation: In this example, a LEFT JOIN is used to include all records from the employees table and matching records from the machines table. If there is no match, the columns from the machines table will contain NULL values.
+
+Summary:
+In SQL joins, the syntax involves specifying the table name followed by a period and then the column name. The JOIN clause is used to combine tables based on a common column. An INNER JOIN returns rows that have matching values in both tables. NULL values in SQL represent missing or undefined data. The LEFT JOIN includes all records from the left table and matching records from the right table, filling unmatched columns with NULL.
