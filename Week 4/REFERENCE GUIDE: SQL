@@ -1,0 +1,32 @@
+Query a Database:
+
+SELECT: Retrieves information from a database.
+FROM: Indicates the table to query.
+ORDER BY: Sequences records based on specified columns.
+Apply Filters:
+
+WHERE: Used for applying filters.
+AND: Specifies that both conditions must be met.
+BETWEEN: Filters for values within a range.
+= (equal to): Returns records with a specified value.
+> (greater than): Returns records with values greater than a specified value.
+>= (greater than or equal to): Returns records with values greater than or equal to a specified value.
+< (less than): Returns records with values less than a specified value.
+<= (less than or equal to): Returns records with values less than or equal to a specified value.
+LIKE: Searches for a pattern in a column.
+NOT: Negates a condition.
+<> (not equal to) or !=: Returns records with values not equal to a specified value.
+OR: Specifies that either condition can be met.
+% (percentage sign): Used as a wildcard in a pattern.
+Join Tables:
+
+FULL OUTER JOIN: Returns all records from both tables.
+INNER JOIN: Returns records matching on a specified column.
+LEFT JOIN: Returns all records of the first table and matching records from the second table.
+RIGHT JOIN: Returns all records of the second table and matching records from the first table.
+Perform Calculations:
+
+AVG: Returns the average of numerical data in a column.
+COUNT: Returns the number of records.
+SUM: Returns the sum of numerical data in a column.
+These SQL keywords and concepts are fundamental for querying databases, applying filters, joining tables, and performing calculations. Understanding them is crucial for efficient and effective database management and analysis.
